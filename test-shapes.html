@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shape Test</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #1a1a1a;
+            min-height: 100vh;
+        }
+        .debug-info {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: rgba(0,0,0,0.8);
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            font-family: monospace;
+            font-size: 12px;
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+    <div class="debug-info">
+        Shape Test Page<br>
+        Check for floating shapes below
+    </div>
+    
+    <!-- Hero Section with Shapes -->
+    <section class="hero" style="min-height: 100vh; position: relative; background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);">
+        <div class="hero-visuals">
+            <div class="hero-shape hero-shape-1"></div>
+            <div class="hero-shape hero-shape-2"></div>
+            <div class="hero-shape hero-shape-3"></div>
+            <div class="grid-pattern"></div>
+        </div>
+        <div style="position: relative; z-index: 2; padding: 100px 20px; text-align: center; color: white;">
+            <h1>Shape Animation Test</h1>
+            <p>You should see 3 floating golden circles moving slowly around the screen</p>
+            <p>If you don't see them, there's a CSS loading issue</p>
+        </div>
+    </section>
+
+    <script>
+        console.log('Test page loaded');
+        console.log('Checking for shapes...');
+        
+        setTimeout(() => {
+            const shapes = document.querySelectorAll('.hero-shape');
+            console.log('Found shapes:', shapes.length);
+            shapes.forEach((shape, i) => {
+                const computed = window.getComputedStyle(shape);
+                console.log(`Shape ${i + 1}:`, {
+                    width: computed.width,
+                    height: computed.height,
+                    background: computed.background,
+                    animation: computed.animation,
+                    opacity: computed.opacity
+                });
+            });
+        }, 1000);
+    </script>
+</body>
+</html>

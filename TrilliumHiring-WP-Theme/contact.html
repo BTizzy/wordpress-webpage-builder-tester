@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Trillium Hiring Services - Get in touch for professional HR solutions for small businesses and high-growth startups.">
+    <title>Contact Us - Trillium Hiring Services</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Css/styles.css">
+</head>
+<body>
+    <header>
+        <!-- Navigation -->
+        <nav class="nav" id="mainNav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="index.html">TRILLIUM HIRING SERVICES</a>
+                </div>
+                <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="thr-smb.html" class="nav-link">Small Business</a></li>
+                    <li><a href="thr-hgs.html" class="nav-link">High-Growth Startups</a></li>
+                    <li><a href="contact.html" class="nav-link active">Contact</a></li>
+                    <li><a href="#contact-form" class="btn btn-nav">Start Inquiry</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero hero-small">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Let's Talk</h1>
+                <p class="hero-subtitle">Ready to transform your people operations? We're here to help.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="section">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-intro fade-in-up">
+                    <h2 class="section-title">Get in Touch</h2>
+                    <p class="lead-text">Whether you're a small business looking to streamline your HR or a startup preparing to scale, we'd love to learn about your needs and explore how we can help.</p>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Contact Form -->
+                    <div class="contact-form-container fade-in-up" id="contact-form">
+                        <div class="form-header">
+                            <h3>Start Your Inquiry</h3>
+                            <p>Tell us about your business and we'll get back to you within one business day.</p>
+                        </div>
+                        
+                        <form class="contact-form" action="#" method="POST">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="firstName">First Name *</label>
+                                    <input type="text" id="firstName" name="firstName" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="lastName">Last Name *</label>
+                                    <input type="text" id="lastName" name="lastName" required>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="company">Company Name *</label>
+                                <input type="text" id="company" name="company" required>
+                            </div>
+                            
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="companySize">Company Size</label>
+                                    <select id="companySize" name="companySize">
+                                        <option value="">Select company size</option>
+                                        <option value="1-10">1-10 employees</option>
+                                        <option value="11-50">11-50 employees</option>
+                                        <option value="51-100">51-100 employees</option>
+                                        <option value="101-250">101-250 employees</option>
+                                        <option value="250+">250+ employees</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="businessType">Business Type</label>
+                                    <select id="businessType" name="businessType">
+                                        <option value="">Select business type</option>
+                                        <option value="small-business">Established Small Business</option>
+                                        <option value="startup-early">Early-Stage Startup</option>
+                                        <option value="startup-growth">High-Growth Startup</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="services">Services of Interest</label>
+                                <div class="checkbox-group">
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="services[]" value="hr-essentials">
+                                        <span class="checkmark"></span>
+                                        HR Essentials Package
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="services[]" value="talent-acquisition">
+                                        <span class="checkmark"></span>
+                                        Talent Acquisition
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="services[]" value="fractional-hr">
+                                        <span class="checkmark"></span>
+                                        Fractional HR Leadership
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="services[]" value="compliance">
+                                        <span class="checkmark"></span>
+                                        Compliance & Policy
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="services[]" value="not-sure">
+                                        <span class="checkmark"></span>
+                                        Not sure - need consultation
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="timeline">Project Timeline</label>
+                                <select id="timeline" name="timeline">
+                                    <option value="">When do you need to start?</option>
+                                    <option value="asap">ASAP</option>
+                                    <option value="1-month">Within 1 month</option>
+                                    <option value="2-3-months">2-3 months</option>
+                                    <option value="planning">Just planning ahead</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Tell us about your needs *</label>
+                                <textarea id="message" name="message" rows="4" placeholder="What are your biggest HR challenges? What are you hoping to achieve?" required></textarea>
+                            </div>
+                            
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-primary btn-large">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <!-- Contact Information -->
+                    <div class="contact-info fade-in-up">
+                        <div class="info-section">
+                            <h3>Direct Contact</h3>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                        <polyline points="22,6 12,13 2,6"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4>Email</h4>
+                                    <p><a href="mailto:info@trilliumhiring.com">info@trilliumhiring.com</a></p>
+                                    <span class="contact-note">Response within one business day</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="info-section">
+                            <h3>What to Expect</h3>
+                            <div class="expectation-list">
+                                <div class="expectation-item">
+                                    <div class="step-number">1</div>
+                                    <div>
+                                        <h4>Quick Response</h4>
+                                        <p>We'll get back to you within one business day to schedule a discovery call.</p>
+                                    </div>
+                                </div>
+                                <div class="expectation-item">
+                                    <div class="step-number">2</div>
+                                    <div>
+                                        <h4>Discovery Call</h4>
+                                        <p>A 30-minute conversation to understand your needs and explore how we can help.</p>
+                                    </div>
+                                </div>
+                                <div class="expectation-item">
+                                    <div class="step-number">3</div>
+                                    <div>
+                                        <h4>Custom Proposal</h4>
+                                        <p>We'll create a tailored solution with transparent pricing and clear timelines.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="info-section">
+                            <h3>Frequently Asked Questions</h3>
+                            <div class="faq-list">
+                                <div class="faq-item">
+                                    <h4>How quickly can you start?</h4>
+                                    <p>Depending on the scope, we can typically begin within 1-2 weeks of signing an agreement.</p>
+                                </div>
+                                <div class="faq-item">
+                                    <h4>Do you work with remote companies?</h4>
+                                    <p>Absolutely! We work with businesses across the country, both remote and in-person.</p>
+                                </div>
+                                <div class="faq-item">
+                                    <h4>What industries do you serve?</h4>
+                                    <p>We work across all industries, with particular expertise in tech, professional services, and high-growth companies.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-col">
+                        <h4>TRILLIUM HIRING SERVICES</h4>
+                        <p class="footer-tagline">People Ops for Your Business</p>
+                    </div>
+                    <div class="footer-col">
+                        <h5>Quick Links</h5>
+                        <ul>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="thr-smb.html">Small Business</a></li>
+                            <li><a href="thr-hgs.html">High-Growth Startups</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h5>Contact</h5>
+                        <p><a href="mailto:info@trilliumhiring.com">info@trilliumhiring.com</a></p>
+                        <p class="footer-response">Response within one business day</p>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 Trillium Hiring Services. All rights reserved.</p>
+                    <div class="footer-social">
+                        <!-- Add your social media links here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="Js/script.js"></script>
+</body>
+</html>

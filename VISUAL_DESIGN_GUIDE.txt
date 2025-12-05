@@ -1,0 +1,400 @@
+
+================================================================================
+TRILLIUM HIRING SERVICES - VISUAL DESIGN PREVIEW
+================================================================================
+
+This document describes what your new website will look like when implemented.
+
+================================================================================
+COLOR SCHEME
+================================================================================
+
+PRIMARY COLORS:
+┌─────────────────────────────────────────────────────────────┐
+│ ⬛ Black (#1a1a1a)      - Main headers, navigation, CTA    │
+│ ⬜ White (#ffffff)      - Backgrounds, text on dark         │
+│ ▫️  Light Grey (#f8f9fa) - Section backgrounds (alternating)│
+│ ▪️  Dark Grey (#666666)  - Body text, secondary content    │
+│ 🟨 Gold (#d4af37)       - Accents, hover states, highlights│
+└─────────────────────────────────────────────────────────────┘
+
+USAGE:
+- Heavy color blocks → REMOVED
+- Clean sections with subtle backgrounds
+- Gold used sparingly for emphasis and interactivity
+
+================================================================================
+HOMEPAGE LAYOUT (Mobile & Desktop)
+================================================================================
+
+┌─────────────────────────────────────────────────────────────┐
+│                    NAVIGATION BAR                           │
+│  TRILLIUM HIRING SERVICES    Home About SMB Startup Contact│
+│                                         [Book Consultation] │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│                      HERO SECTION                           │
+│                   (Full Screen Height)                      │
+│                                                             │
+│         Delivering Talent Strategy, Hiring Process          │
+│    And Tactical Execution For Small Businesses & Startups   │
+│                                                             │
+│           Building The Landing Gear While Flying            │
+│                                                             │
+│      [Our Services]  [Book Free Consultation]              │
+│                                                             │
+│                    ↓ Scroll Down ↓                          │
+├─────────────────────────────────────────────────────────────┤
+│               VALUE PROPOSITION SECTION                     │
+│              (Light Grey Background)                        │
+│                                                             │
+│    At Trillium, we tailor Talent Acquisition and HR        │
+│    solutions specific to your company's unique needs...     │
+│                                                             │
+│  ┌─────────┐    ┌─────────┐    ┌─────────┐                │
+│  │  📦      │    │   ⏰     │    │   📈     │                │
+│  │Strategic │    │ Tactical │    │Sustainable│               │
+│  │Planning  │    │Execution │    │  Growth  │               │
+│  └─────────┘    └─────────┘    └─────────┘                │
+├─────────────────────────────────────────────────────────────┤
+│                  SERVICES PREVIEW                           │
+│                  (White Background)                         │
+│                                                             │
+│              ╔═══════════════════════════╗                  │
+│              ║ SMALL BUSINESS CONSULTING ║                  │
+│              ║                           ║                  │
+│              ║ • Recruiting & Sourcing   ║                  │
+│              ║ • Policies & Compliance   ║                  │
+│              ║ • Employee Relations      ║                  │
+│              ║ • HR Systems Setup        ║                  │
+│              ║                           ║                  │
+│              ║      Learn More →         ║                  │
+│              ╚═══════════════════════════╝                  │
+│                                                             │
+│              ╔═══════════════════════════╗                  │
+│              ║   STARTUP CONSULTING      ║                  │
+│              ║                           ║                  │
+│              ║ • Strategic HR Design     ║                  │
+│              ║ • Fractional Leadership   ║                  │
+│              ║ • Talent Acquisition      ║                  │
+│              ║ • HR Tech Stack           ║                  │
+│              ║                           ║                  │
+│              ║      Learn More →         ║                  │
+│              ╚═══════════════════════════╝                  │
+├─────────────────────────────────────────────────────────────┤
+│                  TESTIMONIALS                               │
+│              (Black Background, White Text)                 │
+│                                                             │
+│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐     │
+│  │ "Even when   │  │ "No matter   │  │ "Running a   │     │
+│  │ we didn't    │  │ what kind of │  │ big company  │     │
+│  │ have a big   │  │ campaign..."  │  │ isn't easy..." │     │
+│  │ budget..."    │  │              │  │              │     │
+│  │              │  │              │  │              │     │
+│  │ — Jamie Kelly│  │ — Dan Wooten │  │— Stacy Holmes│     │
+│  └──────────────┘  └──────────────┘  └──────────────┘     │
+│                                                             │
+│  ┌──────────────┐                                          │
+│  │ "When it     │                                          │
+│  │ comes to     │                                          │
+│  │ marketing..." │                                          │
+│  │              │                                          │
+│  │ — Ava Smith  │                                          │
+│  └──────────────┘                                          │
+├─────────────────────────────────────────────────────────────┤
+│                    CTA SECTION                              │
+│            (Subtle Gold/Beige Background)                   │
+│                                                             │
+│          Book Your Free Consultation Today                  │
+│                                                             │
+│    Discover how Trillium Hiring Services can drive         │
+│           measurable results for your business              │
+│                                                             │
+│                   [BOOK NOW]                                │
+├─────────────────────────────────────────────────────────────┤
+│                 NEWSLETTER SIGNUP                           │
+│              (Light Grey Background)                        │
+│                                                             │
+│            Sign Up For The Newsletter                       │
+│                                                             │
+│    ┌────────────────────────┐  ┌──────────┐                │
+│    │ Enter your email       │  │Subscribe │                │
+│    └────────────────────────┘  └──────────┘                │
+├─────────────────────────────────────────────────────────────┤
+│                      FOOTER                                 │
+│           (Dark Grey/Black Background)                      │
+│                                                             │
+│  TRILLIUM HIRING    Quick Links      Contact               │
+│   SERVICES                                                  │
+│                     • About Us       info@trilliumhiring.com│
+│  People Ops for     • Small Business Mon-Fri 9AM-6PM EST   │
+│  Your Business      • Startups       Response within 1 day  │
+│                     • Contact                               │
+│                                                             │
+│  ─────────────────────────────────────────────────────────  │
+│  © 2025 Trillium Hiring Services. All rights reserved.     │
+└─────────────────────────────────────────────────────────────┘
+
+================================================================================
+MOBILE VIEW (< 768px)
+================================================================================
+
+┌───────────────────────────┐
+│ TRILLIUM HIRING  ☰ (menu) │
+├───────────────────────────┤
+│                           │
+│    HERO SECTION           │
+│   (Full Screen)           │
+│                           │
+│   Main Headline           │
+│   Subheadline             │
+│                           │
+│   [Our Services]          │
+│   [Book Consultation]     │
+│                           │
+├───────────────────────────┤
+│   Value Proposition       │
+│   (Paragraph text)        │
+│                           │
+│   ┌─────────────┐         │
+│   │ Strategic   │         │
+│   │ Planning    │         │
+│   └─────────────┘         │
+│   ┌─────────────┐         │
+│   │ Tactical    │         │
+│   │ Execution   │         │
+│   └─────────────┘         │
+│   ┌─────────────┐         │
+│   │ Sustainable │         │
+│   │ Growth      │         │
+│   └─────────────┘         │
+├───────────────────────────┤
+│   Services Stack:         │
+│                           │
+│   ┌─────────────┐         │
+│   │   Small     │         │
+│   │  Business   │         │
+│   └─────────────┘         │
+│                           │
+│   ┌─────────────┐         │
+│   │   Startup   │         │
+│   │ Consulting  │         │
+│   └─────────────┘         │
+├───────────────────────────┤
+│   Testimonials:           │
+│   (Stacked)               │
+│                           │
+│   ┌─────────────┐         │
+│   │ Quote 1     │         │
+│   └─────────────┘         │
+│   ┌─────────────┐         │
+│   │ Quote 2     │         │
+│   └─────────────┘         │
+│   etc...                  │
+├───────────────────────────┤
+│   CTA Section             │
+│   [BOOK NOW]              │
+├───────────────────────────┤
+│   Newsletter:             │
+│   ┌─────────────┐         │
+│   │ Email       │         │
+│   └─────────────┘         │
+│   [Subscribe]             │
+├───────────────────────────┤
+│   Footer                  │
+│   (Stacked Vertically)    │
+└───────────────────────────┘
+
+================================================================================
+INTERACTION STATES
+================================================================================
+
+BUTTONS:
+  Normal:    ⬛ Black background, white text
+  Hover:     ⬛ Lifts up 2px, gold border appears, shadow increases
+  Active:    ⬛ Pressed down, darker shade
+
+NAVIGATION LINKS:
+  Normal:    Grey text
+  Hover:     Black text, gold underline appears
+  Active:    Black text, gold underline stays
+
+CARDS:
+  Normal:    White background, subtle shadow
+  Hover:     Lifts up 4px, shadow increases, border turns gold
+
+FORMS:
+  Input Normal:   Light grey background, medium grey border
+  Input Focus:    White background, gold border
+  Input Error:    Light red background, red border
+  Input Success:  Light green background, green border
+
+================================================================================
+ANIMATIONS
+================================================================================
+
+PAGE LOAD:
+  ✓ Hero section fades in (0.8s)
+  ✓ Navigation slides down from top (0.5s)
+
+SCROLL ANIMATIONS:
+  ✓ Sections fade in and slide up when scrolled into view
+  ✓ Cards have stagger effect (appear one by one, 100ms delay)
+  ✓ Smooth transitions, not jarring
+
+HOVER ANIMATIONS:
+  ✓ Buttons lift up with shadow (0.3s ease)
+  ✓ Cards scale up slightly (1.02x) with shadow
+  ✓ Links get gold underline that slides in from left
+
+NAVIGATION:
+  ✓ Hamburger menu slides in from top on mobile
+  ✓ Menu items fade in with stagger
+  ✓ Smooth scrolling to anchor links
+
+================================================================================
+TYPOGRAPHY HIERARCHY
+================================================================================
+
+H1 (Hero Title):
+  • Font: Inter, Bold (700)
+  • Size: 56px desktop, 32px mobile
+  • Color: Black
+  • Line Height: 1.2
+
+H2 (Section Titles):
+  • Font: Inter, Bold (700)
+  • Size: 40px desktop, 28px mobile
+  • Color: Black
+  • Line Height: 1.2
+
+H3 (Card Titles):
+  • Font: Inter, Semi-Bold (600)
+  • Size: 28px desktop, 22px mobile
+  • Color: Black
+  • Line Height: 1.2
+
+Body Text:
+  • Font: Inter, Regular (400)
+  • Size: 16px (all devices)
+  • Color: Dark Grey
+  • Line Height: 1.6
+
+Small Text (Footer):
+  • Font: Inter, Regular (400)
+  • Size: 14px
+  • Color: Light Grey
+  • Line Height: 1.6
+
+================================================================================
+SPACING & RHYTHM
+================================================================================
+
+SECTION SPACING:
+  Desktop:  80px vertical padding
+  Mobile:   50px vertical padding
+
+ELEMENT SPACING:
+  Between cards:      40px
+  Between paragraphs: 24px
+  Between headings:   16px
+
+CONTAINER:
+  Max width: 1200px
+  Side padding: 24px
+  Centered: auto margins
+
+================================================================================
+PROFESSIONAL TOUCHES
+================================================================================
+
+✓ Subtle box shadows (never harsh or heavy)
+✓ Consistent 8px or 12px border radius
+✓ Generous white space (not crowded)
+✓ Visual hierarchy through size and weight (not just color)
+✓ Modern but not trendy (timeless design)
+✓ Professional, trustworthy aesthetic
+✓ Clean, minimal, purposeful
+
+================================================================================
+ACCESSIBILITY FEATURES
+================================================================================
+
+✓ Semantic HTML5 (proper heading hierarchy)
+✓ ARIA labels on interactive elements
+✓ Keyboard navigation support
+✓ Focus states visible on all interactive elements
+✓ Color contrast meets WCAG AA standards
+✓ Alt text placeholders for images
+✓ Touch targets minimum 44x44px
+✓ Form labels properly associated
+✓ Error messages clearly visible
+
+================================================================================
+WHAT IT FEELS LIKE
+================================================================================
+
+CURRENT SITE:
+  • Heavy color blocks
+  • Cluttered spacing
+  • Inconsistent design
+  • Basic interactions
+
+NEW SITE:
+  • Clean, open sections
+  • Professional spacing
+  • Cohesive design language
+  • Smooth, modern interactions
+  • Trustworthy and polished
+  • Fast and responsive
+  • Delightful to use
+
+================================================================================
+COMPARISON TO CURRENT SITE
+================================================================================
+
+BEFORE (Current):
+┌────────────────────────┐
+│ ████████████████████   │  ← Heavy color blocks
+│ Text cramped           │  ← Poor spacing
+│ ████████████████████   │  ← Overwhelming
+│ Basic buttons          │  ← No hover effects
+│ Mobile issues          │  ← Not optimized
+└────────────────────────┘
+
+AFTER (New Design):
+┌────────────────────────┐
+│                        │  ← Clean, open
+│   Well-spaced content  │  ← Professional
+│                        │  ← Breathing room
+│   [Smooth Button]      │  ← Interactive
+│   Perfect on mobile    │  ← Optimized
+└────────────────────────┘
+
+================================================================================
+BRAND PERCEPTION
+================================================================================
+
+THE NEW DESIGN COMMUNICATES:
+  ✓ Professional and established
+  ✓ Modern and forward-thinking
+  ✓ Organized and systematic
+  ✓ Trustworthy and reliable
+  ✓ Detail-oriented and careful
+  ✓ Tech-savvy and current
+
+PERFECT FOR:
+  ✓ Small business owners seeking help
+  ✓ Startup founders preparing for funding
+  ✓ HR professionals evaluating partners
+  ✓ Investors reviewing portfolio companies
+
+================================================================================
+
+Your new Trillium Hiring Services website will look professional, modern,
+and trustworthy—exactly what your clients expect from an HR consulting firm.
+
+All the visual design is implemented in the HTML and CSS files provided.
+No additional design work needed—just follow the WordPress setup guide!
+
+================================================================================

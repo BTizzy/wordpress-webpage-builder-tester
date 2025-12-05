@@ -1,0 +1,19 @@
+{
+  "name": "exported-assets-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "emergency-fix-script.js",
+  "scripts": {
+    "test": "playwright test",
+    "lint:php": "bash scripts/run-tests.sh",
+    "test:all": "bash scripts/run-tests.sh && playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.10.1"
+  }
+}

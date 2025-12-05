@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trillium - Loading Test</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .test-indicator {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: #d4af37;
+            color: black;
+            padding: 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            z-index: 9999;
+        }
+        .test-indicator.css-loaded {
+            background: #28a745;
+            color: white;
+        }
+        .test-indicator.js-loaded {
+            background: #007bff;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="test-indicator" id="testIndicator">Testing...</div>
+    
+    <!-- Copy of your hero section to test -->
+    <section class="hero">
+        <div class="hero-visuals">
+            <div class="hero-shape hero-shape-1"></div>
+            <div class="hero-shape hero-shape-2"></div>
+            <div class="hero-shape hero-shape-3"></div>
+            <div class="grid-pattern"></div>
+        </div>
+        <div class="hero-content fade-in">
+            <h1 class="hero-title">
+                <span class="title-line">CSS & JS Test</span>
+                <span class="title-subtitle">Loading Check</span>
+            </h1>
+            <p class="hero-subtitle">If you see styled text and animations, everything is working!</p>
+            <div class="hero-cta">
+                <a href="#" class="btn btn-primary">CSS Working!</a>
+                <a href="#" class="btn btn-secondary">Animations Active!</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script>
+        // Test CSS loading
+        const testEl = document.getElementById('testIndicator');
+        const heroEl = document.querySelector('.hero');
+        
+        // Check if CSS is loaded
+        if (heroEl && window.getComputedStyle(heroEl).position === 'relative') {
+            testEl.textContent = 'CSS ✅ Loaded';
+            testEl.className = 'test-indicator css-loaded';
+            
+            // Check if JS is loaded (wait a moment for script.js)
+            setTimeout(() => {
+                if (typeof initScrollAnimations === 'function' || document.querySelector('.fade-in')) {
+                    testEl.textContent = 'CSS ✅ JS ✅ All Working!';
+                    testEl.className = 'test-indicator js-loaded';
+                }
+            }, 1000);
+        } else {
+            testEl.textContent = 'CSS ❌ Not Loading';
+            testEl.style.background = '#dc3545';
+            testEl.style.color = 'white';
+        }
+    </script>
+</body>
+</html>

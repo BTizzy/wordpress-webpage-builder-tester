@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+.venv/
+
+# Test artifacts
+test-results/
+playwright-report/
+.playwright/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# ZIP archives (deploy artifacts)
+*.zip
+
+# Backup/duplicate theme folders
+trillium-wp-theme 2/
+trillium-wp-theme 3/
+16-working/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# Misc development files
+*.log

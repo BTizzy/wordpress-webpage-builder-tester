@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>About Preview</title>
+<link rel="stylesheet" href="trillium-wp-theme/style.css" />
+<style>body{background:#0a0a0a;color:#fff;font-family:Inter,Arial,sans-serif;padding:40px;} .frame{max-width:900px;margin:0 auto;} .preview-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;} img{width:100%;border-radius:24px;box-shadow:0 18px 50px rgba(0,0,0,.5);} .label{font-size:14px;letter-spacing:.08em;text-transform:uppercase;margin-bottom:8px;color:#e8c547;} .bio{font-size:15px;line-height:1.6;color:#d0d0d0;} .newsletter-demo{margin-top:60px;padding:32px;border:1px solid rgba(255,255,255,.15);border-radius:32px;background:#151515;} .newsletter-demo h3{margin-top:0;color:#fff;} </style>
+</head>
+<body>
+<div class="frame">
+    <h1 style="text-align:center; margin-bottom:40px;">Updated About Page Elements</h1>
+    <div class="preview-grid">
+        <div>
+            <div class="label">LinkedIn-Style Vanessa Headshot</div>
+            <img src="trillium-wp-theme/assets/images/vanessa-wolf-headshot.png" alt="Clean gradient headshot of Vanessa Wolf (background replaced)" style="max-width:320px;border-radius:20px;box-shadow:0 16px 28px rgba(10,10,10,0.16);" />
+        </div>
+        <div>
+            <div class="label">Ryan Bio (Excerpt)</div>
+            <p class="bio">He has launched sourcing engines and ATS implementations at MicroByre, Saltwater Talent, ecoATM Gazelle, and Aralez Bio—supporting a team including Nobel Prize Laureate Frances Arnold—before helping Riviera Partners' Paragon practice scale engineering, data, and product teams. Outside client work he volunteers his time supporting adaptive sports programs in New Hampshire during the winter months.</p>
+        </div>
+    </div>
+    <div class="newsletter-demo">
+        <h3>Newsletter Label Visibility</h3>
+        <form class="wpforms-form" style="display:flex;flex-direction:column;gap:16px;max-width:420px;">
+            <div class="wpforms-field-label">EMAIL</div>
+            <input type="email" placeholder="you@example.com" style="padding:16px 20px;border-radius:999px;border:1px solid rgba(255,255,255,.25);background:rgba(255,255,255,.08);color:#fff;" />
+            <button type="button" style="padding:16px 24px;border-radius:999px;background:linear-gradient(135deg,#d4af37,#e8c547,#d4af37);color:#000;font-weight:700;border:none;cursor:pointer;">Subscribe</button>
+        </form>
+        <p style="font-size:13px;color:#aaa;margin-top:12px;">Label forced white; placeholder also visible on dark background.</p>
+    </div>
+</div>
+</body>
+</html>

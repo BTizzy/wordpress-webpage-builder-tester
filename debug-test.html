@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Loading Test</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .debug-info {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            background: rgba(0,0,0,0.8);
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            font-family: monospace;
+            font-size: 12px;
+            z-index: 9999;
+            max-width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="debug-info" id="debugInfo">Loading...</div>
+    
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="title-line">Test Title</span>
+            </h1>
+            <div class="hero-cta">
+                <a href="#" class="btn btn-primary">Test Button</a>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const debugInfo = document.getElementById('debugInfo');
+        const hero = document.querySelector('.hero');
+        const btn = document.querySelector('.btn-primary');
+        
+        let info = '';
+        
+        // Check if elements exist
+        info += 'Hero element: ' + (hero ? 'Found' : 'Not found') + '\n';
+        info += 'Button element: ' + (btn ? 'Found' : 'Not found') + '\n';
+        
+        if (hero) {
+            const heroStyles = window.getComputedStyle(hero);
+            info += 'Hero background: ' + heroStyles.background.substring(0, 50) + '...\n';
+            info += 'Hero position: ' + heroStyles.position + '\n';
+        }
+        
+        if (btn) {
+            const btnStyles = window.getComputedStyle(btn);
+            info += 'Button background: ' + btnStyles.background.substring(0, 50) + '...\n';
+            info += 'Button padding: ' + btnStyles.padding + '\n';
+        }
+        
+        debugInfo.textContent = info;
+    </script>
+</body>
+</html>
