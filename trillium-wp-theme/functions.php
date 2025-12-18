@@ -30,7 +30,7 @@ function trillium_create_pages() {
         'Contact' => 'Get in touch with us to discuss your HR and talent acquisition needs.',
         'Small Business HR' => 'Comprehensive HR solutions designed specifically for small and growing businesses.',
         'Startup HR' => 'Embedded HR systems and talent acquisition for high-growth startups and scale-ups.',
-        'Learn' => 'Practical guides for small businesses and startups building modern people systems.'
+        'Resources' => 'Practical guides for small businesses and startups building modern people systems.'
     );
     
     foreach ($pages as $title => $content) {
@@ -62,7 +62,7 @@ function trillium_page_template($template) {
             $page_template = 'page-about.php';
         } elseif (is_page('contact')) {
             $page_template = 'page-contact.php';
-        } elseif (is_page('blog') || is_page('learn')) {
+        } elseif (is_page('blog') || is_page('resources')) {
             $page_template = 'page-blog.php';
         }
         

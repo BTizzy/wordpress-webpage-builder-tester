@@ -34,67 +34,6 @@ get_header();
     </div>
 </section>
 
-<!-- Value Proposition -->
-<section class="section value-prop">
-    <div class="animated-background"></div>
-    <div class="container">
-        <div class="value-intro fade-in-up">
-            <h2 class="section-title">Why Choose Trillium</h2>
-            <p class="value-text">At Trillium, we tailor Talent Acquisition and HR solutions specific to your company's unique needs. Specializing in small businesses and early stage technical product organizations, our team embeds directly with yours to handle the day-to-day while building the systems and processes for sustainable long term growth.</p>
-        </div>
-        <div class="value-grid">
-            <div class="value-card fade-in-up" data-tilt>
-                <div class="value-number">01</div>
-                <div class="value-icon">
-                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
-                        <polyline points="3.27 6.96 12 12.01 20.73 6.96"/>
-                        <line x1="12" y1="22.08" x2="12" y2="12"/>
-                    </svg>
-                </div>
-                <h3>Strategic Planning</h3>
-                <p>Optimized talent strategies tailored to your growth trajectory and business objectives</p>
-            </div>
-            <div class="value-card fade-in-up" data-tilt>
-                <div class="value-number">02</div>
-                <div class="value-icon">
-                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <circle cx="12" cy="12" r="10"/>
-                        <polyline points="12 6 12 12 16 14"/>
-                    </svg>
-                </div>
-                <h3>Tactical Execution</h3>
-                <p>Hands-on implementation that drives immediate results and measurable impact</p>
-            </div>
-            <div class="value-card fade-in-up" data-tilt>
-                <div class="value-number">03</div>
-                <div class="value-icon">
-                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <line x1="12" y1="20" x2="12" y2="10"/>
-                        <line x1="18" y1="20" x2="18" y2="4"/>
-                        <line x1="6" y1="20" x2="6" y2="16"/>
-                    </svg>
-                </div>
-                <h3>Sustainable Growth</h3>
-                <p>Systems and processes built for long-term success and scalability</p>
-            </div>
-            <div class="value-card fade-in-up" data-tilt>
-                <div class="value-number">04</div>
-                <div class="value-icon">
-                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
-                        <circle cx="9" cy="7" r="4"/>
-                        <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
-                        <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
-                    </svg>
-                </div>
-                <h3>Dedicated Partnership</h3>
-                <p>Real people in your corner—not software tickets or chatbots</p>
-            </div>
-        </div>
-    </div>
-</section>
-
 <!-- Services Preview -->
 <section class="section services-preview" id="services">
     <div class="services-background"></div>
@@ -160,6 +99,67 @@ get_header();
                         </svg>
                     </a>
                 </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Value Proposition -->
+<section class="section value-prop">
+    <div class="animated-background"></div>
+    <div class="container">
+        <div class="value-intro fade-in-up">
+            <h2 class="section-title">Why Choose Trillium</h2>
+            <p class="value-text">At Trillium, we tailor Talent Acquisition and HR solutions specific to your company's unique needs. Specializing in small businesses and early stage technical product organizations, our team embeds directly with yours to handle the day-to-day while building the systems and processes for sustainable long term growth.</p>
+        </div>
+        <div class="value-grid">
+            <div class="value-card fade-in-up" data-tilt>
+                <div class="value-number">01</div>
+                <div class="value-icon">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                        <polyline points="3.27 6.96 12 12.01 20.73 6.96"/>
+                        <line x1="12" y1="22.08" x2="12" y2="12"/>
+                    </svg>
+                </div>
+                <h3>Strategic Planning</h3>
+                <p>Optimized talent strategies tailored to your growth trajectory and business objectives</p>
+            </div>
+            <div class="value-card fade-in-up" data-tilt>
+                <div class="value-number">02</div>
+                <div class="value-icon">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"/>
+                        <polyline points="12 6 12 12 16 14"/>
+                    </svg>
+                </div>
+                <h3>Tactical Execution</h3>
+                <p>Hands-on implementation that drives immediate results and measurable impact</p>
+            </div>
+            <div class="value-card fade-in-up" data-tilt>
+                <div class="value-number">03</div>
+                <div class="value-icon">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="12" y1="20" x2="12" y2="10"/>
+                        <line x1="18" y1="20" x2="18" y2="4"/>
+                        <line x1="6" y1="20" x2="6" y2="16"/>
+                    </svg>
+                </div>
+                <h3>Sustainable Growth</h3>
+                <p>Systems and processes built for long-term success and scalability</p>
+            </div>
+            <div class="value-card fade-in-up" data-tilt>
+                <div class="value-number">04</div>
+                <div class="value-icon">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                        <circle cx="9" cy="7" r="4"/>
+                        <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                        <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                    </svg>
+                </div>
+                <h3>Dedicated Partnership</h3>
+                <p>Real people in your corner—not software tickets or chatbots</p>
             </div>
         </div>
     </div>

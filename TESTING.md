@@ -51,6 +51,43 @@ npm run test:all
 - **Success:** Playwright reports `3 passed` (or similar) and exits with code `0`.
 - **Failure:** The failing assertion is logged with a trace/screenshot path so you can inspect what differed in the preview HTML.
 
+## 3. Live mobile regression gates (recommended before/after deployments)
+
+These tests are the “what a user sees” safety net. They:
+
+- Assert key mobile layout behaviors (hero not hidden under nav, CTA padding present, Contact cards not too narrow, copy changes like Ryan bio).
+- Capture **anchored screenshots** for the affected sections so you can review the same places visually in the HTML test report.
+
+### Projects (device profiles)
+
+Configured in `playwright.config.ts`:
+
+- `iphone-se` (tiny phone regression guard)
+- `iphone-x` (iOS Safari/WebKit, iPhone X-class viewport)
+- `small-android` (compact Android approximation)
+- `ipad` (tablet)
+
+### Run against the live site
+
+Set `SITE_URL` to point Playwright at production (or staging) and run the mobile gates:
+
+```bash
+SITE_URL=https://trilliumhiring.com npx playwright test tests/smoke.spec.js --project=iphone-se --grep "iPhone SE landing hero checks|signals:"
+SITE_URL=https://trilliumhiring.com npx playwright test tests/smoke.spec.js --project=iphone-x --grep "iPhone SE landing hero checks|signals:"
+SITE_URL=https://trilliumhiring.com npx playwright test tests/smoke.spec.js --project=small-android --grep "iPhone SE landing hero checks|signals:"
+SITE_URL=https://trilliumhiring.com npx playwright test tests/smoke.spec.js --project=ipad --grep "iPhone SE landing hero checks|signals:"
+```
+
+### View the report / screenshots
+
+After a run:
+
+```bash
+npx playwright show-report
+```
+
+Tip: the `signals:` test attaches viewport screenshots at the exact sections we care about (SMB hero, Startup hero, Contact “What to expect”, Homepage CTA, About Ryan card), so future changes can be verified quickly.
+
 ## Next steps
 Future enhancements could include:
 - [PHPCS](https://github.com/squizlabs/PHP_CodeSniffer) to enforce coding standards.

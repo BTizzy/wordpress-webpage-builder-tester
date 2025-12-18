@@ -40,7 +40,7 @@
                 <a href="<?php echo esc_url(home_url('/thr-hgs/')); ?>" class="nav-link<?php echo is_page('thr-hgs') ? ' active' : ''; ?>">High-Growth Startups</a>
             </li>
             <li>
-                <a href="<?php echo esc_url(home_url('/learn/')); ?>" class="nav-link<?php echo is_page('learn') ? ' active' : ''; ?>">Learn</a>
+                <a href="<?php echo esc_url(home_url('/resources/')); ?>" class="nav-link<?php echo is_page('resources') ? ' active' : ''; ?>">Resources</a>
             </li>
             <li>
                 <a href="<?php echo esc_url(home_url('/contact/')); ?>" class="nav-link<?php echo is_page('contact') ? ' active' : ''; ?>">Contact</a>

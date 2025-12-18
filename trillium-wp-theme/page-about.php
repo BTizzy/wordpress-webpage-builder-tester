@@ -10,8 +10,8 @@ get_header();
     <section class="about-hero hero hero-small">
         <div class="container">
             <div class="hero-content">
-                <h1 class="hero-title">Meet the CEO &amp; Team</h1>
-                <p class="hero-subtitle">Get to know the leadership building Trillium Hiring Services for modern founders and small business owners.</p>
+                <h1 class="hero-title">Inside Trillium Hiring Services</h1>
+                <p class="hero-subtitle">Learn how our company operates and meet the leaders who deliver people-first systems for growing teams.</p>
                 <div class="scroll-indicator">
                     <span>Scroll Down</span>
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -25,80 +25,65 @@ get_header();
     <section id="about-overview" class="section about-overview">
         <div class="container">
             <div class="about-grid">
-                <aside class="about-sidebar">
-                    <div class="about-media fade-in-up">
-                        <figure>
-                            <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/amy-renhard.png' ); ?>" alt="Portrait of Amy Renhard, Founder and CEO of Trillium Hiring Services">
-                        </figure>
-                        <div class="team-profile-link">
-                            <a class="team-link" href="https://www.linkedin.com/in/amyrenhard/" target="_blank" rel="noopener">
-                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
-                                    <rect x="2" y="9" width="4" height="12"/>
-                                    <circle cx="4" cy="4" r="2"/>
-                                </svg>
-                                <span>Connect on LinkedIn</span>
-                            </a>
-                        </div>
-
-                        <div class="about-cta about-cta--simple fade-in-up">
-                            <p>Amy partners with founders who want steady, people-first HR foundations. Ready to build yours?</p>
-                            <a class="btn btn-primary" href="<?php echo esc_url( home_url( '/contact/' ) ); ?>">Start Your Inquiry</a>
-                        </div>
-                    </div>
-                </aside>
                 <div class="about-bio fade-in-up">
-                    <div>
-                        <h2>About Amy Renhard</h2>
-                        <p class="about-summary">Amy Renhard is the founder and CEO of Trillium Hiring Services, a boutique consultancy that builds people operations for small businesses, mid-market companies, and venture-backed startups. With more than a decade of experience across recruiting, HR compliance, and organizational development, Amy is known for designing practical systems that scale as quickly as her clients do.</p>
-                        <p class="about-summary">She launched Trillium to give founders and business owners access to enterprise-grade HR and talent support without the bloat. Whether a company is launching its first product, leveling up an established team, or preparing for a fundraising round, Amy embeds with leadership to build processes that move the business forward.</p>
-                    </div>
+                    <section class="about-section about-company">
+                        <span class="section-kicker">About Trillium</span>
+                        <h2>People-first hiring systems for growing companies</h2>
+                        <p class="about-summary">Trillium Hiring Services is a boutique consultancy that builds the HR and talent infrastructure modern founders need. We help small businesses, mid-market teams, and venture-backed startups create compliant operations, repeatable hiring, and people programs that unlock sustainable growth.</p>
+                        <p class="about-summary">Our team embeds directly with leadership to run day-to-day execution while installing the processes, data, and documentation that investors and employees expect. You get enterprise-grade support without the overhead of building an internal department before you are ready.</p>
+                    </section>
 
-                    <div class="about-highlights">
-                        <div class="about-card">
-                            <h3>Core Expertise</h3>
-                            <ul>
-                                <li>Designing and deploying end-to-end HR systems: onboarding, compliance, payroll, and employee relations.</li>
-                                <li>Leading audits, policy creation, and ongoing compliance management to reduce risk.</li>
-                                <li>Delivering recruiting and talent acquisition programs that scale technical and go-to-market teams.</li>
-                                <li>Supporting founders as an embedded HR leader during high-growth and fundraising cycles.</li>
-                            </ul>
+                    <section class="about-section about-support">
+                        <h3>How Trillium Helps</h3>
+                        <div class="about-highlights">
+                            <div class="about-card">
+                                <h4>Small Business HR</h4>
+                                <ul>
+                                    <li>HR Essentials Packages with transparent pricing for owners who need trusted guidance without corporate overhead.</li>
+                                    <li>Compliance reviews, handbooks, and employee-relations support delivered as an embedded partner.</li>
+                                    <li>Onboarding workflows and documentation that get new hires productive from day one.</li>
+                                    <li>People operations dashboards that keep leadership aligned on hiring velocity and retention.</li>
+                                </ul>
+                            </div>
+
+                            <div class="about-card">
+                                <h4>Venture &amp; Growth Teams</h4>
+                                <ul>
+                                    <li>Fractional people leadership for startups from pre-Series A through Series B who need strategic build-out.</li>
+                                    <li>Recruiter pods and sourcing systems that spin up quickly and integrate with existing hiring workflows.</li>
+                                    <li>HR tech stack selection, implementation, and documentation ready for investor diligence.</li>
+                                    <li>Founder coaching and reporting that keeps talent, finance, and operations leaders aligned.</li>
+                                </ul>
+                            </div>
                         </div>
+                    </section>
 
-                        <div class="about-card">
-                            <h3>How Trillium Helps</h3>
-                            <ul>
-                                <li>HR Essentials Package with transparent pricing for busy small business owners.</li>
-                                <li>Fractional leadership for startups that need strategic HR guidance and execution.</li>
-                                <li>Systems thinking that ties business objectives to people strategy using data and documentation.</li>
-                                <li>Clean up legacy HR processes while launching scalable frameworks for future growth.</li>
-                            </ul>
+                    <section class="about-section about-pillars-section">
+                        <h3>What Clients Experience</h3>
+                        <div class="about-pillars fade-in-up">
+                            <article class="pillar-card">
+                                <div class="pillar-number">01</div>
+                                <div class="pillar-body">
+                                    <h4>People-First Systems</h4>
+                                    <p>Every engagement centers on the employee experience, ensuring tools and processes support the humans doing the work.</p>
+                                </div>
+                            </article>
+                            <article class="pillar-card">
+                                <div class="pillar-number">02</div>
+                                <div class="pillar-body">
+                                    <h4>Compliance With Confidence</h4>
+                                    <p>From handbooks to audits, we deliver airtight compliance frameworks that keep teams protected as they scale.</p>
+                                </div>
+                            </article>
+                            <article class="pillar-card">
+                                <div class="pillar-number">03</div>
+                                <div class="pillar-body">
+                                    <h4>Momentum for Founders</h4>
+                                    <p>Trillium plugs into leadership quickly, creating practical playbooks that free founders to stay focused on revenue, product, and customers.</p>
+                                </div>
+                            </article>
                         </div>
-                    </div>
-
-                    <div class="about-pillars fade-in-up">
-                        <article class="pillar-card">
-                            <div class="pillar-number">01</div>
-                            <div class="pillar-body">
-                                <h4>People-First Systems</h4>
-                                <p>Every engagement centers on the employee experience, ensuring tools and processes support the humans doing the work.</p>
-                            </div>
-                        </article>
-                        <article class="pillar-card">
-                            <div class="pillar-number">02</div>
-                            <div class="pillar-body">
-                                <h4>Compliance With Confidence</h4>
-                                <p>From handbooks to audits, Amy delivers airtight compliance frameworks that keep teams protected as they scale.</p>
-                            </div>
-                        </article>
-                        <article class="pillar-card">
-                            <div class="pillar-number">03</div>
-                            <div class="pillar-body">
-                                <h4>Momentum for Founders</h4>
-                                <p>Trillium plugs into leadership quickly, creating practical playbooks that free founders to stay focused on revenue, product, and customers.</p>
-                            </div>
-                        </article>
-                    </div>
+                    </section>
                 </div>
             </div>
         </div>
@@ -107,10 +92,36 @@ get_header();
     <section class="section about-team" id="leadership">
         <div class="container">
             <div class="team-intro fade-in-up">
-                <h2>Partners</h2>
-                <p>Amy collaborates with Vanessa Wolf and Ryan Bartell to deliver recruiting analytics, technical hiring, and talent operations that scale with client growth.</p>
+                <h2>Leadership Team</h2>
+                <p>Founder Amy Renhard partners with Vanessa Wolf and Ryan Bartell to deliver recruiting analytics, technical hiring, and people operations that scale with client growth.</p>
             </div>
-            <div class="team-grid" style="max-width: 960px; margin: 0 auto;">
+            <div class="team-grid">
+                <article class="team-card team-card--partner team-card--founder fade-in-up">
+                    <div class="team-media team-media--no-frame">
+                        <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/amy-renhard.png' ); ?>" alt="Portrait of Amy Renhard, Founder and CEO of Trillium Hiring Services">
+                    </div>
+                    <div>
+                        <h3>Amy Renhard</h3>
+                        <p class="team-role">Founder &amp; CEO</p>
+                        <p class="team-summary">Amy launched Trillium after more than a decade leading recruiting, HR compliance, and organizational development for high-growth companies. She translates that experience into calm execution for leaders who need strategic direction and reliable follow-through.</p>
+                        <p class="team-summary">Before founding Trillium, she supported technical product organizations, climate-tech innovators, and small business operators who needed people systems that could scale alongside revenue. Today Amy pairs that expertise with a network of Trillium partners to deliver full-stack people operations.</p>
+                        <ul class="founder-credentials">
+                            <li>Designs and deploys end-to-end HR systems covering onboarding, compliance, payroll, and employee relations.</li>
+                            <li>Leads audits, policy creation, and compliance programs that keep founders protected during rapid change.</li>
+                            <li>Builds recruiting engines and talent acquisition programs for technical, product, and go-to-market teams.</li>
+                            <li>Supports leadership as an embedded HR partner during fundraising, restructuring, and scale-up milestones.</li>
+                        </ul>
+                        <a class="team-link" href="https://www.linkedin.com/in/amyrenhard/" target="_blank" rel="noopener">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                                <rect x="2" y="9" width="4" height="12"/>
+                                <circle cx="4" cy="4" r="2"/>
+                            </svg>
+                            <span>Connect on LinkedIn</span>
+                        </a>
+                    </div>
+                </article>
+
                 <article class="team-card team-card--partner fade-in-up">
                     <div class="team-media team-media--no-frame">
                         <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/vanessa-wolf.png' ); ?>" alt="Original photo of Vanessa Wolf, Partner at Trillium Hiring Services">
@@ -138,8 +149,8 @@ get_header();
                     <div>
                         <h3>Ryan Bartell</h3>
                         <p class="team-role">Partner</p>
-                        <p class="team-summary">Ryan Bartell partners with founders to design data-informed recruiting and HR systems, delivering more than 100 technical and leadership hires across robotics, biotech, and SaaS startups.</p>
-                        <p class="team-summary">He has launched sourcing engines and ATS implementations at MicroByre, Saltwater Talent, ecoATM Gazelle, and Aralez Bio—supporting a team including Nobel Prize Laureate Frances Arnold—before helping Riviera Partners' Paragon practice scale engineering, data, and product teams. Outside client work he volunteers his time supporting adaptive sports programs in New Hampshire during the winter months.</p>
+                        <p class="team-summary">Ryan Bartell is a hands-on recruiter, builder, and HR consultant. While starting his career supporting local small businesses and skilled trade organizations, he has since delivered 100+ technical and leadership hires while installing the systems and processes to keep pipelines predictable.</p>
+                        <p class="team-summary">He has launched sourcing engines and ATS implementations at MicroByre, Saltwater Talent, ecoATM Gazelle, Moloco, Telos Health (surgical robotics), and Aralez Bio—supporting a team including Nobel Prize Laureate Frances Arnold—before helping Riviera Partners' Paragon practice scale engineering, data, and product teams. Outside client work he volunteers his time supporting adaptive sports programs in New Hampshire during the winter months.</p>
                         <a class="team-link" href="https://www.linkedin.com/in/Ryan-Bartell" target="_blank" rel="noopener">
                             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>

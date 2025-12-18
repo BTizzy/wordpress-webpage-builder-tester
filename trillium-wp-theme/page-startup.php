@@ -15,12 +15,12 @@
                 </h1>
                 <p class="landing-subtitle">Embedded HR &amp; Talent Systems for High-Growth Startups</p>
 
-                <p class="startup-description">You've got product-market fit and funding on the horizon. But to scale successfully, you need more than speed—you need a system. Trillium seamlessly integrates with your team to build your entire people foundation from the inside out.</p>
+                <p class="startup-description">You've got product-market fit and real momentum through your next rounds. To scale successfully, you need more than speed—you need a system that grows from pre-Series A through Series B. Trillium seamlessly integrates with your team to build your entire people foundation from the inside out.</p>
 
                 <div class="landing-cta">
                     <a href="#inquiry" class="btn btn-primary btn-large">Start Your Inquiry</a>
                     <div class="trust-indicator">
-                        <span>⭐ Pre-Series A Specialists</span>
+                        <span>⭐ Pre-Series A – Series B Operators</span>
                         <span>✓ Embedded within weeks</span>
                     </div>
                 </div>
@@ -48,8 +48,8 @@
     <div class="container">
         <div class="startup-intro fade-in-up">
             <h2 class="section-title">What We Do</h2>
-            <p class="lead-text">Trillium partners with early-stage startups preparing for fundraising to deliver a fully operational HR + Talent infrastructure, ready to scale with you.</p>
-            <p class="startup-tagline">We act as your turnkey people team during your critical ramp-up. Our services include:</p>
+            <p class="lead-text">Trillium partners with high-growth startups raising pre-Series A through Series B rounds to deliver a fully operational HR + Talent infrastructure that scales alongside your roadmap.</p>
+            <p class="startup-tagline">We act as your turnkey people team during your critical ramp-up and beyond. Our services include:</p>
         </div>
 
         <div class="startup-services-grid">
@@ -174,7 +174,7 @@
                     <li><strong>Better quality of hire</strong> using structured interviews and scorecards. <a href="https://hbr.org/2016/04/how-to-take-the-bias-out-of-interviews" target="_blank" rel="noopener">Harvard Business Review</a></li>
                     <li><strong>Stronger onboarding retention</strong> with 90‑day plans that reduce early turnover. <a href="https://www.shrm.org/topics-tools/news/talent-acquisition/dont-underestimate-importance-good-onboarding" target="_blank" rel="noopener">SHRM</a></li>
                 </ul>
-                <p class="note">We bring software where it helps, but your outcomes come from experienced humans embedded with your team. <a class="learn-link" href="<?php echo esc_url(home_url('/learn/#fractional-leadership')); ?>">Learn more about fractional leadership</a></p>
+                <p class="note">We bring software where it helps, but your outcomes come from experienced humans embedded with your team. <a class="learn-link" href="<?php echo esc_url(home_url('/resources/#fractional-leadership')); ?>">Learn more about fractional leadership</a></p>
             </div>
         </div>
     </div>
@@ -238,7 +238,7 @@
                         <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
                     </svg>
                 </div>
-                <p>We work with startups before their Series A—and build our model so we're part of the round planning, not an afterthought.</p>
+                <p>We partner with founders from pre-Series A through Series B—and build our model so we're part of the round planning, not an afterthought.</p>
             </div>
         </div>
     </div>

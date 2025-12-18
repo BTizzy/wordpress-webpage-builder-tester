@@ -117,7 +117,7 @@
                 <li><strong>Better quality of hire</strong> using structured interviews and scorecards. <a href="https://hbr.org/2016/04/how-to-take-the-bias-out-of-interviews" target="_blank" rel="noopener">Harvard Business Review</a></li>
                 <li><strong>Improved onboarding retention</strong> with 90‑day plans and manager check‑ins. <a href="https://www.shrm.org/topics-tools/news/talent-acquisition/dont-underestimate-importance-good-onboarding" target="_blank" rel="noopener">SHRM</a></li>
             </ul>
-            <p class="note">We bring software where it helps—without pushing a SaaS pricing model. You pay for human support and expertise. <a class="learn-link" href="<?php echo esc_url(home_url('/learn/#fractional-leadership')); ?>">Learn what fractional leadership is</a></p>
+            <p class="note">We bring software where it helps—without pushing a SaaS pricing model. You pay for human support and expertise. <a class="learn-link" href="<?php echo esc_url(home_url('/resources/#fractional-leadership')); ?>">Learn what fractional leadership is</a></p>
         </div>
     </div>
 </section>

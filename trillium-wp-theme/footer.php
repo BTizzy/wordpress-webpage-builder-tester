@@ -9,7 +9,7 @@
                 <h5>Quick Links</h5>
                 <ul>
                     <li><a href="<?php echo home_url('/about/'); ?>">About Us</a></li>
-                           <li><a href="<?php echo home_url('/learn/'); ?>">Learn</a></li>
+                    <li><a href="<?php echo home_url('/resources/'); ?>">Resources</a></li>
                     <li><a href="<?php echo home_url('/thr-smb/'); ?>">Small Business</a></li>
                     <li><a href="<?php echo home_url('/thr-hgs/'); ?>">High-Growth Startups</a></li>
                     <li><a href="<?php echo home_url('/contact/'); ?>">Contact</a></li>

@@ -1,7 +1,7 @@
 <?php
 /**
- * Template Name: Blog
- * Description: Educational blog with guides on HR, hiring, and fractional leadership.
+ * Template Name: Resources
+ * Description: Resource hub with guides on HR, hiring, and fractional leadership.
  */
 
 get_header();
@@ -11,7 +11,7 @@ get_header();
     <section class="hero hero-compact">
         <div class="container">
             <div class="hero-content">
-                <h1 class="hero-title">Learn</h1>
+                <h1 class="hero-title">Resources</h1>
                 <p class="hero-subtitle">Practical guides for small businesses and startups building modern people systems.</p>
                 
                 <div class="scroll-indicator">
