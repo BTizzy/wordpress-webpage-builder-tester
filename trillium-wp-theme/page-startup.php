@@ -20,7 +20,7 @@
                 <div class="landing-cta">
                     <a href="#inquiry" class="btn btn-primary btn-large">Start Your Inquiry</a>
                     <div class="trust-indicator">
-                        <span>⭐ Pre-Series A – Series B Operators</span>
+                        <span>✓ Pre-Series A – Series B Operators</span>
                         <span>✓ Embedded within weeks</span>
                     </div>
                 </div>
