@@ -123,7 +123,7 @@ add_action('wp_enqueue_scripts', 'trillium_custom_scripts');
    - Email field (required)
    - Submit button text: "Subscribe"
 5. Go to Settings → Notifications:
-   - Set notification email to: info@trilliumhiring.com
+   - Set notification email to: info@trillycorp.com
 6. Save and copy the shortcode (e.g., [wpforms id="123"])
 7. Replace newsletter form HTML with this shortcode
 
@@ -137,7 +137,7 @@ Create separate forms for:
 For each form:
 1. WPForms → Add New
 2. Add all required fields
-3. Set all notifications to info@trilliumhiring.com
+3. Set all notifications to info@trillycorp.com
 4. Copy shortcode
 5. Replace HTML form with shortcode in your pages
 
@@ -256,7 +256,7 @@ Verify:
 - [ ] All pages load correctly
 - [ ] Navigation menu works on desktop and mobile
 - [ ] All forms submit successfully
-- [ ] Form emails arrive at info@trilliumhiring.com
+- [ ] Form emails arrive at info@trillycorp.com
 - [ ] Newsletter signup works
 - [ ] Calendly booking works
 - [ ] All buttons and links work

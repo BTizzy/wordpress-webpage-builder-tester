@@ -226,7 +226,7 @@
                 <a href="<?php echo esc_url(home_url('/contact/')); ?>" class="btn btn-primary btn-large">Start Your Inquiry</a>
                 <div class="startup-contact-info">
                     <p>Or just email us:</p>
-                    <a href="mailto:info@trilliumhiring.com" class="email-link">info@trilliumhiring.com</a>
+                    <a href="mailto:info@trillycorp.com" class="email-link">info@trillycorp.com</a>
                 </div>
             </div>
 

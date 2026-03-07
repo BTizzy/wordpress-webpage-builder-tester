@@ -128,7 +128,7 @@ HOMEPAGE LAYOUT (Mobile & Desktop)
 │                                                             │
 │  TRILLIUM HIRING    Quick Links      Contact               │
 │   SERVICES                                                  │
-│                     • About Us       info@trilliumhiring.com│
+│                     • About Us       info@trillycorp.com│
 │  People Ops for     • Small Business Mon-Fri 9AM-6PM EST   │
 │  Your Business      • Startups       Response within 1 day  │
 │                     • Contact                               │

@@ -158,7 +158,7 @@ manifest_content = """# 🎯 TRILLIUM HIRING SERVICES - COMPLETE WEBSITE REDESIG
 ### Phase 4: Forms Setup (30 min)
 1. Create newsletter form in WPForms
 2. Create contact forms for each page
-3. Configure email notifications (info@trilliumhiring.com)
+3. Configure email notifications (info@trillycorp.com)
 4. Test all form submissions
 
 ### Phase 5: Calendly Integration (15 min)
@@ -425,7 +425,7 @@ Already created as trillium_homepage.html
 
 Make sure these are correct:
 
-- **Email:** info@trilliumhiring.com
+- **Email:** info@trillycorp.com
 - **Hours:** Monday – Friday, 9AM – 6PM EST
 - **Response Time:** Within one business day
 - **Calendly Link:** [YOUR LINK HERE]

@@ -110,7 +110,7 @@ FORMS:
 ✓ Contact form structure ready
 ✓ Newsletter signup ready
 ✓ Client-side validation included
-✓ All forms route to: info@trilliumhiring.com
+✓ All forms route to: info@trillycorp.com
 
 CALENDLY:
 ✓ Placeholder code included
@@ -206,7 +206,7 @@ Before going live, test:
 □ Hamburger menu opens/closes
 □ All links work
 □ Forms submit successfully
-□ Emails arrive at info@trilliumhiring.com
+□ Emails arrive at info@trillycorp.com
 □ Calendly booking works
 □ Mobile layout looks good on real device
 □ Animations are smooth
@@ -240,7 +240,7 @@ WHAT TO UPDATE BEFORE LAUNCH
 
 REQUIRED:
 ✓ Add your Calendly link (replace YOUR-USERNAME/YOUR-EVENT)
-✓ Verify email: info@trilliumhiring.com
+✓ Verify email: info@trillycorp.com
 ✓ Test all forms deliver emails correctly
 
 OPTIONAL:
@@ -357,7 +357,7 @@ Good luck with your launch! 🚀
 
 Trillium Hiring Services
 People Ops for Your Business
-info@trilliumhiring.com
+info@trillycorp.com
 
 ================================================================================
 """

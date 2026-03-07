@@ -234,7 +234,7 @@
                 </div>
             </div>
             <h2>Send us a note to learn more</h2>
-            <p>Let's see if we're a good fit. No sales pitch—just helpful insight on how to clean up or organize your HR. Leave a note below or email us at <a href="mailto:info@trilliumhiring.com" style="color: #D4AF37;">info@trilliumhiring.com</a> if you have any questions.</p>
+            <p>Let's see if we're a good fit. No sales pitch—just helpful insight on how to clean up or organize your HR. Leave a note below or email us at <a href="mailto:info@trillycorp.com" style="color: #D4AF37;">info@trillycorp.com</a> if you have any questions.</p>
 
             <!-- Contact Form -->
             <div class="contact-form-container">

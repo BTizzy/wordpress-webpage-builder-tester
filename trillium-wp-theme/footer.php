@@ -17,7 +17,7 @@
             </div>
             <div class="footer-col">
                 <h5>Contact</h5>
-                <p><a href="mailto:info@trilliumhiring.com">info@trilliumhiring.com</a></p>
+                <p><a href="mailto:info@trillycorp.com">info@trillycorp.com</a></p>
                 <p class="footer-response">Response within one business day</p>
             </div>
             <div class="footer-col footer-newsletter">

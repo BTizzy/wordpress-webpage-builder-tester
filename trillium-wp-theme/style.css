@@ -1,8 +1,8 @@
 /*
 Theme Name: Trillium Hiring Services
-Theme URI: https://www.trilliumhiring.com
+Theme URI: https://www.trillycorp.com
 Author: Trillium Hiring Services
-Author URI: https://www.trilliumhiring.com
+Author URI: https://www.trillycorp.com
 Description: Custom theme for Trillium Hiring Services with refined partner bios, contact experience, and landing pages.
 Version: 1.0.0
 License: GNU General Public License v2 or later
@@ -77,6 +77,11 @@ html {
     scroll-behavior: smooth;
 }
 
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
 body {
     font-family: var(--font-family);
     font-size: 16px;
@@ -85,6 +90,7 @@ body {
     background-color: var(--color-white);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
 }
 
 /* ===========================
@@ -707,10 +713,11 @@ body.admin-bar .landing-hero {
 .nav-container {
     max-width: 1400px;
     margin: 0 auto;
-    padding: var(--spacing-md) var(--spacing-lg);
+    padding: var(--spacing-sm) var(--spacing-lg);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: var(--spacing-md);
 }
 
 .nav-logo a {
@@ -727,18 +734,19 @@ body.admin-bar .landing-hero {
 .nav-menu {
     display: flex;
     align-items: center;
-    gap: var(--spacing-xl);
-    margin-left: var(--spacing-2xl);
+    gap: var(--spacing-md);
+    margin-left: var(--spacing-lg);
     list-style: none;
 }
 
 .nav-link {
-    font-size: 0.95rem;
+    font-size: 0.875rem;
     font-weight: 600;
     color: var(--color-black-tertiary);
     position: relative;
     letter-spacing: 0.01em;
     transition: var(--transition);
+    white-space: nowrap;
 }
 
 .nav-link:hover,
@@ -780,7 +788,7 @@ body.admin-bar .landing-hero {
     transition: var(--transition);
 }
 
-@media (max-width: 968px) {
+@media (max-width: 1100px) {
     :root {
         --nav-height: 76px;
     }
@@ -1269,7 +1277,7 @@ body.admin-bar .landing-hero {
 
 .about-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr));
     gap: var(--spacing-2xl);
     align-items: start;
 }
@@ -1400,7 +1408,7 @@ body.admin-bar .landing-hero {
     display: grid;
     gap: var(--spacing-lg);
     margin-top: var(--spacing-lg);
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
 }
 
 @media (max-width: 900px) {
@@ -1985,7 +1993,7 @@ body.admin-bar .landing-hero {
 
 .value-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
     gap: var(--spacing-xl);
     margin-top: var(--spacing-3xl);
     position: relative;
@@ -2184,7 +2192,7 @@ body.admin-bar .landing-hero {
 
 .services-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
     gap: var(--spacing-2xl);
     max-width: 1200px;
     margin: 0 auto;
@@ -2330,7 +2338,7 @@ body.admin-bar .landing-hero {
 
 .testimonials-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
     gap: var(--spacing-lg);
 }
 
@@ -2571,7 +2579,7 @@ body.admin-bar .landing-hero {
     border-radius: 32px;
     padding: var(--spacing-2xl);
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
     gap: var(--spacing-2xl);
     box-shadow: var(--shadow-xl);
     border: 1px solid rgba(255, 255, 255, 0.08);
@@ -3034,7 +3042,7 @@ body.admin-bar .landing-hero {
 
 .pricing-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
     gap: var(--spacing-lg);
     margin-top: var(--spacing-xl);
 }
@@ -3447,7 +3455,7 @@ body.admin-bar .landing-hero {
 
 .startup-services-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
     gap: var(--spacing-xl);
     margin-top: var(--spacing-2xl);
 }
@@ -3581,7 +3589,7 @@ body.admin-bar .landing-hero {
 
 .process-steps {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
     gap: var(--spacing-2xl);
     margin-top: var(--spacing-2xl);
 }
@@ -3858,7 +3866,7 @@ body.admin-bar .landing-hero {
 
 .contact-details .contact-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
     gap: var(--spacing-2xl);
     align-items: stretch;
 }
@@ -4426,7 +4434,7 @@ body.admin-bar .landing-hero {
 /* Role Grid */
 .role-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
     gap: var(--spacing-md);
     margin-top: var(--spacing-md);
 }

@@ -23,7 +23,7 @@
                         </div>
                         <div>
                             <h4>Email Directly</h4>
-                            <p><a href="mailto:info@trilliumhiring.com">info@trilliumhiring.com</a></p>
+                            <p><a href="mailto:info@trillycorp.com">info@trillycorp.com</a></p>
                             <span class="contact-note">Response within one business day</span>
                         </div>
                     </div>

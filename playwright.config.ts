@@ -8,7 +8,7 @@ export default defineConfig({
   workers: process.env.CI ? 1 : undefined,
   reporter: 'html',
   use: {
-    baseURL: 'https://www.trilliumhiring.com',
+    baseURL: 'https://www.trillycorp.com',
     trace: 'on-first-retry',
   },
   projects: [

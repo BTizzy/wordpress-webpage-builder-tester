@@ -93,7 +93,7 @@ Before going live, update these items:
    - Replace with your actual Calendly scheduling link
 
 2. **Email Forms**
-   - All forms route to: info@trilliumhiring.com
+   - All forms route to: info@trillycorp.com
    - Verify this email in WordPress settings
 
 3. **Social Media**
@@ -305,4 +305,4 @@ Good luck with your launch! 🚀
 
 **Trillium Hiring Services**
 People Ops for Your Business
-info@trilliumhiring.com
+info@trillycorp.com

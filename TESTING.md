@@ -72,10 +72,10 @@ Configured in `playwright.config.ts`:
 Set `SITE_URL` to point Playwright at production (or staging) and run the mobile gates:
 
 ```bash
-SITE_URL=https://trilliumhiring.com npx playwright test tests/smoke.spec.js --project=iphone-se --grep "iPhone SE landing hero checks|signals:"
-SITE_URL=https://trilliumhiring.com npx playwright test tests/smoke.spec.js --project=iphone-x --grep "iPhone SE landing hero checks|signals:"
-SITE_URL=https://trilliumhiring.com npx playwright test tests/smoke.spec.js --project=small-android --grep "iPhone SE landing hero checks|signals:"
-SITE_URL=https://trilliumhiring.com npx playwright test tests/smoke.spec.js --project=ipad --grep "iPhone SE landing hero checks|signals:"
+SITE_URL=https://trillycorp.com npx playwright test tests/smoke.spec.js --project=iphone-se --grep "iPhone SE landing hero checks|signals:"
+SITE_URL=https://trillycorp.com npx playwright test tests/smoke.spec.js --project=iphone-x --grep "iPhone SE landing hero checks|signals:"
+SITE_URL=https://trillycorp.com npx playwright test tests/smoke.spec.js --project=small-android --grep "iPhone SE landing hero checks|signals:"
+SITE_URL=https://trillycorp.com npx playwright test tests/smoke.spec.js --project=ipad --grep "iPhone SE landing hero checks|signals:"
 ```
 
 ### View the report / screenshots
