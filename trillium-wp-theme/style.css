@@ -4869,3 +4869,206 @@ body.admin-bar .landing-hero {
         text-align: left;
     }
 }
+
+/* ============================================
+   HubSpot Form Styling — Trillium Hiring
+   ============================================ */
+
+/* Form card container — tighten padding on mobile */
+.contact-form-container {
+    position: relative;
+}
+
+.contact-form-container .hs-form-frame {
+    width: 100%;
+}
+
+/* HubSpot form wrapper */
+.contact-form-container .hbspt-form {
+    width: 100%;
+}
+
+.contact-form-container .hs-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Form fields */
+.contact-form-container .hs-form-field {
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.contact-form-container .hs-form-field label {
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.85);
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.contact-form-container .hs-form-field .hs-required {
+    color: #D4AF37;
+    margin-left: 2px;
+}
+
+/* Inputs and textareas */
+.contact-form-container .hs-input {
+    width: 100%;
+    padding: 14px 16px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: var(--font-family);
+    background: #fff;
+    color: #1C1812;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    box-sizing: border-box;
+    height: 48px;
+}
+
+.contact-form-container .hs-input:focus {
+    outline: none;
+    border-color: #0B5C62;
+    box-shadow: 0 0 0 3px rgba(11, 92, 98, 0.15);
+}
+
+.contact-form-container .hs-input::placeholder {
+    color: rgba(0, 0, 0, 0.4);
+    word-wrap: normal;
+    overflow-wrap: normal;
+}
+
+.contact-form-container textarea.hs-input {
+    height: auto;
+    min-height: 120px;
+    resize: vertical;
+}
+
+/* Name fields side-by-side on desktop */
+.contact-form-container .hs-form .hs_firstname,
+.contact-form-container .hs-form .hs_lastname {
+    display: inline-block;
+    width: calc(50% - 10px);
+    vertical-align: top;
+}
+
+.contact-form-container .hs-form .hs_firstname {
+    margin-right: 20px;
+}
+
+/* Submit button — teal brand color */
+.contact-form-container .hs-button {
+    display: inline-block;
+    width: 100%;
+    padding: 16px 32px;
+    background: #0B5C62;
+    color: #FAF8F3;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: var(--font-family);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s ease, transform 0.1s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: 10px;
+}
+
+.contact-form-container .hs-button:hover {
+    background: #094a4f;
+    transform: translateY(-1px);
+}
+
+.contact-form-container .hs-button:active {
+    transform: translateY(0);
+}
+
+/* Error messages */
+.contact-form-container .hs-error-msgs {
+    list-style: none;
+    padding: 0;
+    margin: 6px 0 0;
+}
+
+.contact-form-container .hs-error-msg {
+    color: #dc3545;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.contact-form-container .hs-input.error {
+    border-color: #dc3545;
+}
+
+/* Success message */
+.contact-form-container .submitted-message {
+    text-align: center;
+    padding: 40px 20px;
+    color: #0B5C62;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Legal consent / disclaimer text */
+.contact-form-container .hs-richtext {
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.55);
+    line-height: 1.5;
+    text-align: left;
+}
+
+.contact-form-container .hs-richtext a {
+    color: #0B5C62;
+    text-decoration: underline;
+}
+
+/* Email link in CTA section */
+.cta-section .cta-email-link,
+.cta-content .cta-email-link {
+    color: #D4AF37;
+    font-weight: 600;
+    text-decoration: underline;
+    white-space: nowrap;
+    word-break: keep-all;
+}
+
+.cta-section .cta-email-link:hover,
+.cta-content .cta-email-link:hover {
+    color: #e5c04a;
+}
+
+/* Responsive adjustments — scoped to SMB landing page */
+@media (max-width: 768px) {
+    .landing-page-smb .contact-form-container {
+        padding: 24px;
+    }
+
+    .contact-form-container .hs-form .hs_firstname,
+    .contact-form-container .hs-form .hs_lastname {
+        display: block;
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .contact-form-container .hs-input {
+        height: 44px;
+        padding: 12px 14px;
+    }
+
+    .contact-form-container .hs-button {
+        padding: 14px 24px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 520px) {
+    .landing-page-smb .contact-form-container {
+        margin-left: 8px;
+        margin-right: 8px;
+        padding: 20px 16px;
+    }
+}

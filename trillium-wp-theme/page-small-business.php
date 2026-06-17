@@ -234,11 +234,12 @@
                 </div>
             </div>
             <h2>Send us a note to learn more</h2>
-            <p>Let's see if we're a good fit. No sales pitch—just helpful insight on how to clean up or organize your HR. Leave a note below or email us at <a href="mailto:info@trillycorp.com" style="color: #D4AF37;">info@trillycorp.com</a> if you have any questions.</p>
+            <p>Let's see if we're a good fit. No sales pitch—just helpful insight on how to clean up or organize your HR. Leave a note below or email us at <a href="mailto:info@trillycorp.com" class="cta-email-link">info@trillycorp.com</a> if you have any questions.</p>
 
             <!-- Contact Form -->
             <div class="contact-form-container">
-                <?php echo do_shortcode('[wpforms id="182"]'); ?>
+                <script src="https://js-na2.hsforms.net/forms/embed/245446467.js" defer></script>
+                <div class="hs-form-frame" data-region="na2" data-form-id="ca819fa3-78f1-44ac-9e1b-ad306956ef5b" data-portal-id="245446467"></div>
             </div>
         </div>
     </div>
