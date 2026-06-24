@@ -67,7 +67,6 @@ get_header();
                                 <div class="pillar-icon">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
                                 </div>
-                                <div class="pillar-number">01</div>
                                 <div class="pillar-body">
                                     <h4>People-First Systems</h4>
                                     <p>Every engagement centers on the employee experience, ensuring tools and processes support the humans doing the work.</p>
@@ -77,7 +76,6 @@ get_header();
                                 <div class="pillar-icon">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
                                 </div>
-                                <div class="pillar-number">02</div>
                                 <div class="pillar-body">
                                     <h4>Compliance With Confidence</h4>
                                     <p>From handbooks to audits, we deliver airtight compliance frameworks that keep teams protected as they scale.</p>
@@ -87,7 +85,6 @@ get_header();
                                 <div class="pillar-icon">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
                                 </div>
-                                <div class="pillar-number">03</div>
                                 <div class="pillar-body">
                                     <h4>Momentum for Founders</h4>
                                     <p>Trillium plugs into leadership quickly, creating practical playbooks that empower founders to stay focused on revenue, product, and customers.</p>
